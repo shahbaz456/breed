@@ -1,38 +1,221 @@
-.App {
-  text-align: center;
+/* h1{
+    display: flex;
+    justify-content: center;
+} */
+.input-group {
+  width: 35%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-btn {
+  margin: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dog-breed-btn {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin: auto;
+  /* margin-top: 2010pxpx; */
+  /* overflow-x: scroll;
+    max-width: 1200px;
+    scroll-behavior: smooth; */
+  width: 100vw;
 }
-
-.App-header {
-  background-color: #282c34;
+.dog-breed-btn::-webkit-scrollbar {
+  display: none;
+}
+h1 {
+  font-family: "Oswald", sans-serif;
+}
+.goto-btn {
+  border: lightgray;
+  border: lightgrey 2px solid;
+  background: transparent;
+  /* text-decoration: underline; */
+  color: grey;
+  /* padding: 0px; */
+  font-size: 15px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  min-width: 130px;
+}
+.land {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+}
+.card {
+  margin: 8px;
+}
+.listed-wrap {
+  display: flex;
+  padding: 0 10px;
+  margin: 15px 0;
+}
+.image-div {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 10px;
+    margin: 10px; */
+  justify-content: center;
+  padding: 0 10px;
+  margin: 15px 0;
+}
+.image-div img {
+  height: 310px;
+  width: 375px;
+  padding: 10px;
+  margin: auto;
+  cursor: pointer;
+}
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  padding: 0 10px;
+}
+.slider {
+  border: none;
+  background: none;
+}
+.goto {
+  border: none;
+  color: darkgrey;
+  font-size: 20px;
+  background: none;
+  text-decoration: underline;
+  font-family: "Oswald", sans-serif;
+}
+.goto:hover {
+  color: blue;
+}
+.fontt {
+  font-family: "Oswald", sans-serif !important;
+}
+.b-btn {
+  border: lightgray;
+  border: lightgrey 2px solid;
+  background: transparent;
+  /* text-decoration: underline; */
+  color: grey;
+  /* padding: 0px; */
+  font-size: 15px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  min-width: 130px;
+}
+/* .singleImage:hover{
+    transform: scale(1.04);
+} */
+
+.all-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  /* margin-right: 20px; */
+  /* width: 120px; */
+  min-width: 130px;
+}
+.active-buttn {
+  background: burlywood;
+}
+.modal-img {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.scroll-btn {
+  background: transparent;
+  border: none;
+}
+.rec-carousel {
+  height: 40px;
+  width: 100% !important;
+  margin: 15px !important;
+  padding: 0 10px !important;
+}
+.sr-only {
+  display: none;
+}
+.selected {
+  background-color: lightsteelblue;
+}
+.spinner-border {
+  width: 3rem !important;
+  height: 3rem !important;
+  position: absolute;
+  top: 100px;
+}
+.image-load {
+  position: absolute;
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  opacity: 0.5;
+}
+.heart {
+  border: none;
+  background: none;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: grey;
+  width: 50px;
+  margin-left: 10px;
+}
+.not-like {
+  color: grey;
+}
+.liked {
+  color: indianred;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-family: "Oswald", sans-serif !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.goto-btn {
+  border: lightgray;
+  border: lightgrey 2px solid;
+  background: transparent;
+  /* text-decoration: underline; */
+  color: grey;
+  /* padding: 0px; */
+  font-size: 15px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  min-width: 130px;
+}
+.land {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading {
+  color: darkgrey;
+}
+.goto-btn {
+  border: lightgray;
+  border: lightgrey 2px solid;
+  background: transparent;
+  /* text-decoration: underline; */
+  color: grey;
+  /* padding: 0px; */
+  font-size: 15px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  min-width: 130px;
+}
+.land {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
